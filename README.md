@@ -1,6 +1,6 @@
-# Face Recognition Project
+# Face Recognition Simple Project
 
-This project is a Python-based face recognition system that uses machine learning algorithms to identify and verify faces in images and videos.
+This project is a Python-based face recognition system that uses machine learning algorithms to identify and verify faces in images.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -39,19 +39,16 @@ This project is a Python-based face recognition system that uses machine learnin
 
 ## Usage
 
-1. To run the face recognition script on an image:
-    ```bash
-    python recognize_faces.py --image path/to/image.jpg
-    ```
-2. To run the face recognition script on a video:
-    ```bash
-    python recognize_faces.py --video path/to/video.mp4
-    ```
+To run the face recognition script on an image:
+```bash
+python main.py
+```
+And follow the onscreen prompt
 
 ## Features
 
-- Detect faces in images and videos.
-- Recognize and label known faces.
+- Detect faces captured via webcam.
+- Recognize and label known faces based on photo data inside folder `faces`.
 - High accuracy and performance using state-of-the-art machine learning models.
 
 ## Contributing
