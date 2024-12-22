@@ -39,11 +39,18 @@ This project is a Python-based face recognition system that uses machine learnin
 
 ## Usage
 
-To run the face recognition script on an image:
+1. Populate employee photo data in folder `faces`
+
+2. Run the face recognition script:
 ```bash
 python main.py
 ```
 And follow the onscreen prompt
+
+3. To run the test:
+```
+python -m pytest
+```
 
 ## Features
 
