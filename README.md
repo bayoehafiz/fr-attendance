@@ -6,7 +6,6 @@ This project is a Python-based face recognition system that uses machine learnin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -57,10 +56,6 @@ python -m pytest
 - Detect faces captured via webcam.
 - Recognize and label known faces based on photo data inside folder `faces`.
 - High accuracy and performance using state-of-the-art machine learning models.
-
-## Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more information.
 
 ## License
 
